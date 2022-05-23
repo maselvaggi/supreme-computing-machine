@@ -12,6 +12,3 @@ y = np.cos(arr)
 plt.plot(arr, x)
 plt.plot(arr, y)
 plt.show
-
-
-# %%
