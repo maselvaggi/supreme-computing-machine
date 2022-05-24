@@ -17,4 +17,3 @@ plt.title("Sine and Cosine Graphs", fontsize = 20)
 plt.legend(loc = 'lower left')
 plt.show
 
-
