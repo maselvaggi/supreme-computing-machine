@@ -9,6 +9,10 @@ x = np.sin(arr)
 y = np.cos(arr)
 
 #plot and show the sine/cosine graphs
-plt.plot(arr, x)
-plt.plot(arr, y)
+plt.plot(arr, x, label = "sine")
+plt.plot(arr, y, label = "cosine")
+plt.title("Sine and Cosine Graphs", fontsize = 20)
+plt.legend(loc = 'lower left')
 plt.show
+
+# %%
