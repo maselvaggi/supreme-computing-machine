@@ -13,9 +13,9 @@ def web_scrape(n):
 
         record = requests.get("http://3.89.180.32:8000/random_company")
         cont = html.fromstring(record.content)
-        buyers = cont.xpath('//li/text()')
+        info = cont.xpath('//li/text()')
 
-        li = [elem.split(':') for elem in buyers] 
+        li = [elem.split(':') for elem in info] 
 
         for i in range(len(li)):
             if li[i][0] == 'Name':
