@@ -5,12 +5,6 @@ import csv
 from nltk.sentiment import SentimentIntensityAnalyzer
 import pandas as pd
 
-
-#%%
-name = []
-purpose = []
-
-
 #%%
 def web_scrape(n):
     name = []
